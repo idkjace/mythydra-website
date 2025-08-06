@@ -1,4 +1,4 @@
-import Home1 from "./(homes)/home-6/page";
+import Home1 from "./(homes)/home-6/page.jsx";
 export const metadata = {
   title:
     "Mythydra",
