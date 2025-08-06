@@ -1,203 +1,23 @@
 export const menuItems = [
   {
     id: 1,
+    href: "/",
     label: "Home",
-    subItems: [
-      {
-        href: "/",
-        label: "Home 1",
-      },
-      {
-        href: "/home-2",
-        label: "Home 2",
-      },
-      {
-        href: "/home-3",
-        label: "Home 3",
-      },
-      {
-        href: "/home-4",
-        label: "Home 4",
-      },
-      {
-        href: "/home-5",
-        label: "Home 5",
-      },
-      {
-        href: "/home-6",
-        label: "Home 6",
-      },
-      {
-        href: "/rtl",
-        label: "Home RTL",
-      },
-    ],
   },
   {
     id: 2,
-    href: "/page-features",
+    href: "#features",
     label: "Features",
   },
   {
     id: 3,
-    href: "/page-pricing",
+    href: "#pricing",
     label: "Pricing",
   },
   {
     id: 4,
-    href: "/page-about",
-    label: "About",
-  },
-  {
-    id: 5,
-    href: "/page-career",
-    label: "Career",
-  },
-  {
-    id: 6,
-    href: "/page-contact",
-    label: "Contact",
-  },
-  {
-    id: 7,
-    label: "Inner Pages",
-    subItems: [
-      {
-        label: "Blog",
-        subItems: [
-          {
-            href: "/blog",
-            label: "Full Width",
-          },
-          {
-            href: "/blog-2cols/1",
-            label: "Grid 2 Cols",
-          },
-          {
-            href: "/blog-3cols/1",
-            label: "Grid 3 Cols",
-          },
-          {
-            href: "/blog-4cols/1",
-            label: "Grid 4 Cols",
-          },
-        ],
-      },
-      {
-        label: "Blog - detail",
-        subItems: [
-          {
-            href: "/blog-details/1",
-            label: "Blog detail",
-          },
-          {
-            href: "/blog-details-2/1",
-            label: "Blog detail - v2",
-          },
-        ],
-      },
-      {
-        label: "Useful pages",
-        subItems: [
-          {
-            href: "/sign-up",
-            label: "Sign up",
-          },
-          {
-            href: "/sign-in",
-            label: "Sign in",
-          },
-          {
-            href: "/reset-password",
-            label: "Reset password",
-          },
-          {
-            href: "/page-not-found",
-            label: "404 page",
-          },
-          {
-            href: "/coming-soon",
-            label: "Coming soon",
-          },
-        ],
-      },
-      {
-        label: "Other pages",
-        subItems: [
-          {
-            href: "/page-terms",
-            label: "FAQ",
-          },
-          {
-            href: "/page-terms",
-            label: "Terms of use",
-          },
-          {
-            href: "/page-privacy",
-            label: "Privacy policy",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    id: 8,
-    label: "Shop",
-    subItems: [
-      {
-        label: "Shop layouts",
-        subItems: [
-          {
-            href: "/shop",
-            label: "Shop 4 cols",
-          },
-          {
-            href: "/shop-3",
-            label: "Shop 3 cols",
-          },
-          {
-            href: "/shop-2",
-            label: "Shop 2 cols",
-          },
-          {
-            href: "/shop-sidebar",
-            label: "Shop with sidebar",
-          },
-        ],
-      },
-      {
-        href: "/shop-category/demo",
-        label: "Archive category",
-      },
-      {
-        href: "/shop-product-detail/2",
-        label: "Product detail",
-      },
-      {
-        href: "/shop-product-detail-2/2",
-        label: "Product detail - v2",
-      },
-      {
-        href: "/shop-cart",
-        label: "Cart",
-      },
-      {
-        href: "/shop-cart-2",
-        label: "Cart - v2",
-      },
-      {
-        href: "/shop-checkout",
-        label: "Checkout",
-      },
-      {
-        href: "/shop-checkout-2",
-        label: "Checkout - v2",
-      },
-      {
-        href: "/shop-order",
-        label: "Order confirmation",
-      },
-    ],
+    href: "https://discord.gg/3PJBYpJeWP",
+    label: "Discord",
   },
 ];
 
