@@ -32,7 +32,7 @@ export default function Footer5() {
               <div className="panel">
                 <ul className="nav-x justify-center gap-6 lg:gap-8 flex-wrap text-gray-300">
                   <li><Link href="#pricing" className="hover:text-white transition-colors">Pricing</Link></li>
-                  <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
+                  <li><Link href="#terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
                   <li><Link href="https://discord.gg/3PJBYpJeWP" className="hover:text-white transition-colors">Contact Us</Link></li>
                   <li><Link href="https://discord.gg/3PJBYpJeWP" className="hover:text-white transition-colors">Support</Link></li>
                 </ul>
