@@ -1,0 +1,241 @@
+export const pricingTiers = [
+  {
+    id: 1,
+    title: "Essentials",
+    description: "For creating impressive tools that generate results.",
+    price: "$19 USD",
+    priceInfo: "Seat per month, 2 seats max",
+    buttonLabel: "Start a free trial",
+
+    features: [
+      "Real-time tracking and notifications",
+      "Real-time analytics",
+      "Drag and drop templates",
+      "Project Management",
+      "24/7 email and chat support",
+    ],
+  },
+  {
+    id: 2,
+    title: "Business",
+    description: "For seamless integrations and sending tools in bulk.",
+    price: "$49 USD",
+    priceInfo: "Seat cost per month",
+    buttonLabel: "Start a free trial",
+
+    features: [
+      "CRM and Zapier integrations",
+      "Content reporting",
+      "Unlimited team workspaces",
+      "Approval workflows",
+      "Salesforce integration*",
+    ],
+    popular: true,
+    imageUrl: "/assets/images/template/money.svg",
+    imageAlt: "money",
+    darkImageUrl: "/assets/images/template/money-dark.svg",
+    darkImageAlt: "money-dark",
+  },
+];
+export const tiers = [
+  {
+    id: 1,
+    plan: "Basic plan",
+    price: "$49",
+    priceSuffix: "/ mo",
+    description: "Billed annually.",
+    features: [
+      "Up to 10 individual users",
+      "Basic reporting and analytics",
+      "Project Management",
+      "20GB individual data each user",
+      "Basic chat and email support",
+    ],
+    icon: "unicon-sub-volume",
+    buttonText: "Get started",
+
+    highlight: false,
+  },
+  {
+    id: 2,
+    plan: "Business plan",
+    price: "$79",
+    priceSuffix: "/ mo",
+    description: "Billed annually.",
+    features: [
+      "Access to all <b>Basic</b> features",
+      "200+ integrations",
+      "Unlimited team workspaces",
+      "Approval workflows",
+      "Salesforce integration*",
+    ],
+    icon: "unicon-course",
+    buttonText: "Start a free trial",
+
+    highlight: true,
+  },
+  {
+    id: 3,
+    plan: "Enterprise plan",
+    price: "$199",
+    priceSuffix: "/ mo",
+    description: "Billed annually.",
+    features: [
+      "Access to all <b>Business</b> features",
+      "Unlimited files uploads",
+      "Real-time team collaboration",
+      "SSO support and custom user roles",
+      "Bulk send & Forms",
+    ],
+    icon: "unicon-building",
+    buttonText: "Book a demo",
+
+    highlight: false,
+  },
+];
+
+export const pricingPlans = [
+  {
+    title: "Starter",
+    price: "$49",
+    description: "For creating impressive tools that generate results.",
+    features: [
+      "Up to 10 individual users",
+      "Basic reporting and analytics",
+      "Project Management",
+      "20GB individual data each user",
+      "Basic chat and email support",
+    ],
+    linkText: "Get started",
+
+    additionalClasses: "",
+  },
+  {
+    title: "Pro",
+    price: "$79",
+    description: "For seamless integrations and sending tools in bulk.",
+    features: [
+      "Access to all Starter features",
+      "200+ integrations",
+      "Unlimited team workspaces",
+      "Approval workflows",
+      "Salesforce integration*",
+    ],
+    linkText: "Start a free trial",
+
+    additionalClasses:
+      "bg-gradient-45 from-secondary to-transparent dark:from-gray-700 sm:rounded-top-end-0 lg:rounded-top-start-0 lg:rounded-top-end-1-5",
+    badge: "Popular",
+  },
+];
+
+export const tiers2 = [
+  {
+    name: "Free Trial",
+    price: "$0",
+    description: "Suits for testing. and want to try Mythydra.",
+    details: "1 Day Free Trial",
+    buttonClass: "btn-secondary",
+    features: [
+      { text: "Use on 1 device", included: true },
+      { text: "3 Games", included: true },
+      { text: "Access to 60k++ games", included: false },
+      { text: "Update Game", included: false },
+      { text: "DLC Unlocker", included: false },
+      { text: "Online Fix", included: false },
+      { text: "Denuvo Bypass", included: false },
+      { text: "Free Bypass", included: false },
+    ],
+      isLifetime: true,
+  },
+  {
+    name: "Standard",
+    price: "$7",
+    description: "Suits for not looking for every games.",
+    details: "Lifetime",
+    buttonClass: "btn-primary",
+    features: [
+      { text: "Use on 1 device", included: true },
+      { text: "Only have access to 6k games", included: true },
+      { text: "Free Bypass", included: true },
+      { text: "Access to 60k++ games", included: false },
+      { text: "Update Game", included: false },
+      { text: "DLC Unlocker", included: false },
+      { text: "Online Fix", included: false },
+      { text: "Denuvo Bypass", included: false },
+    ],
+      isLifetime: true,
+  },
+  {
+    name: "Premium",
+    price: "$20",
+    description: "Suits for you who want to play every games.",
+    details: "Lifetime.",
+    buttonClass: "btn-secondary",
+    features: [
+      { text: "Use on 1 device", included: true },
+      { text: "Workshop Download", included: true },
+      { text: "Free Bypass", included: true },
+      { text: "Access to 60k++ games", included: true },
+      { text: "Update Game", included: true },
+      { text: "DLC Unlocker", included: true },
+      { text: "Online Fix", included: true },
+      { text: "Denuvo Bypass", included: true },
+    ],
+      isLifetime: true,
+  },
+];
+
+export const tiers3 = [
+  {
+    title: "Essentials",
+    description: "For creating impressive tools that generate results.",
+    price: "$19 USD",
+    yearlyPrice: "$12 USD",
+    priceDetails: "Seat per month, 2 seats max",
+    linkText: "Start a free trial",
+    linkSubtext: "No credit card required",
+    features: [
+      "Real-time tracking and notifications",
+      "Real-time analytics",
+      "Drag and drop templates",
+      "Project Management",
+      "24/7 email and chat support",
+    ],
+    isPopular: false,
+  },
+  {
+    title: "Business",
+    description: "For seamless integrations and sending tools in bulk.",
+    price: "$49 USD",
+    yearlyPrice: "$32 USD",
+    priceDetails: "Seat cost per month",
+    linkText: "Start a free trial",
+    linkSubtext: "No credit card required",
+    features: [
+      "CRM and Zapier integrations",
+      "Content reporting",
+      "Unlimited team workspaces",
+      "Approval workflows",
+      "Salesforce integration*",
+    ],
+    isPopular: true,
+  },
+  {
+    title: "Enterprise",
+    description: "For large companies with complex Tool workflows.",
+    price: "Let’s talk",
+    yearlyPrice: "Let’s talk",
+    priceDetails: "Per‑seat or per‑tool pricing",
+    linkText: "Contact sales",
+    linkSubtext: "Respond within 24 hrs max",
+    features: [
+      "Unlimited files uploads",
+      "Real-time tracking and notifications",
+      "User performance",
+      "SSO support and custom user roles",
+      "Bulk send & Forms*",
+    ],
+    isPopular: false,
+  },
+];
