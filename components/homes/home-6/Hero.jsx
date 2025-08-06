@@ -88,7 +88,7 @@ export default function Hero() {
                     A Tool that does everything for you, All in one.
                   </p>
                   <Link
-                    href={`/page-pricing`}
+                    href={`#pricing`}
                     className="btn btn-md lg:btn-lg btn-primary min-w-150px mt-2"
                   >
                     <span>Buy Mythydra</span>
